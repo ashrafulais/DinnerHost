@@ -26,6 +26,9 @@
 - Build the solution: `dotnet build`
 - Run the project: `dotnet run --project DinnerHost.API`
 
+- Dependency injection package `dotnet add DinnerHost.Application/ package Microsoft.Extensions.DependencyInjection.Abstractions`
+- `dotnet add DinnerHost.Infrastructure/ package Microsoft.Extensions.DependencyInjection.Abstractions`
+
 ### Visualize clean architecture
 ```
 ----------------------------------
@@ -43,6 +46,10 @@ Presentation ↓ | Infrastructure ↓ -> DB
 
 ![Final result](Docs/Clean-Arch-Final-results.png) -->
 
-### Used tools
-- REST Client: to run the .http commands inside the file
+### Extensions and accessibility
+- REST Client vscode extension: to run the .http commands inside the file
+- Add these 2 patterns to exclude the bin and obj folders from the visible files: `**/bin`, `**/obj`. Goto vscode settings > Files: Exxclude section under the workspace tab
 
+- Transient objects are always different; a new instance is provided to every controller and every service.
+- Scoped objects are the same within a request, but different across different requests.
+- Singleton objects are the same for every object and every request. 

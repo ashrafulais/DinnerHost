@@ -36,6 +36,11 @@
 - Add extension `dotnet add DinnerHost.Infrastructure/ package Microsoft.Extensions.Options.ConfigurationExtensions`
 
 
+- Init user secrets: `dotnet user-secrets init  --project DinnerHost.API`
+- Set the secret `dotnet user-secrets set --project DinnerHost.API "JwtSettings:Secret" "super-secret-key-from-user-secrets"`
+- List the secrets: `dotnet user-secrets list --project DinnerHost.API`
+  
+
 ### Visualize clean architecture
 ```
 ----------------------------------

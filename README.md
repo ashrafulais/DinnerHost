@@ -32,8 +32,10 @@
 - cmd dommand to generate file tree: `tree /f /a > tree.txt`
 
 - Add JWT extension `dotnet add DinnerHost.Infrastructure/ package System.IdentityModel.Tokens.Jwt`
+- Add extension `dotnet add DinnerHost.Infrastructure/ package Microsoft.Extensions.Configuration`
+- Add extension `dotnet add DinnerHost.Infrastructure/ package Microsoft.Extensions.Options.ConfigurationExtensions`
 
-- 
+
 ### Visualize clean architecture
 ```
 ----------------------------------

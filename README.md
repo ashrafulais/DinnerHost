@@ -29,6 +29,11 @@
 - Dependency injection package `dotnet add DinnerHost.Application/ package Microsoft.Extensions.DependencyInjection.Abstractions`
 - `dotnet add DinnerHost.Infrastructure/ package Microsoft.Extensions.DependencyInjection.Abstractions`
 
+- cmd dommand to generate file tree: `tree /f /a > tree.txt`
+
+- Add JWT extension `dotnet add DinnerHost.Infrastructure/ package System.IdentityModel.Tokens.Jwt`
+
+- 
 ### Visualize clean architecture
 ```
 ----------------------------------

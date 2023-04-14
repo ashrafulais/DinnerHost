@@ -1,0 +1,276 @@
+Folder PATH listing
+Volume serial number is 90A8-0117
+C:.
+|   .gitignore
+|   DinnerHost.sln
+|   README.md
+|   tree.txt
+|   
++---.vscode
+|       launch.json
+|       settings.json
+|       tasks.json
+|       
++---DinnerHost.API
+|   |   appsettings.Development.json
+|   |   appsettings.json
+|   |   DinnerHost.API.csproj
+|   |   Program.cs
+|   |   
+|   +---bin
+|   |   \---Debug
+|   |       \---net7.0
+|   |               appsettings.Development.json
+|   |               appsettings.json
+|   |               DinnerHost.API.deps.json
+|   |               DinnerHost.API.dll
+|   |               DinnerHost.API.exe
+|   |               DinnerHost.API.pdb
+|   |               DinnerHost.API.runtimeconfig.json
+|   |               DinnerHost.Application.dll
+|   |               DinnerHost.Application.pdb
+|   |               DinnerHost.Contracts.dll
+|   |               DinnerHost.Contracts.pdb
+|   |               DinnerHost.Domain.dll
+|   |               DinnerHost.Domain.pdb
+|   |               DinnerHost.Infrastructure.dll
+|   |               DinnerHost.Infrastructure.pdb
+|   |               Microsoft.AspNetCore.OpenApi.dll
+|   |               Microsoft.OpenApi.dll
+|   |               Swashbuckle.AspNetCore.Swagger.dll
+|   |               Swashbuckle.AspNetCore.SwaggerGen.dll
+|   |               Swashbuckle.AspNetCore.SwaggerUI.dll
+|   |               
+|   +---Controllers
+|   |       AuthenticationController.cs
+|   |       
+|   +---obj
+|   |   |   DinnerHost.API.csproj.nuget.dgspec.json
+|   |   |   DinnerHost.API.csproj.nuget.g.props
+|   |   |   DinnerHost.API.csproj.nuget.g.targets
+|   |   |   project.assets.json
+|   |   |   project.nuget.cache
+|   |   |   
+|   |   \---Debug
+|   |       \---net7.0
+|   |           |   .NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+|   |           |   apphost.exe
+|   |           |   DinnerHost.API.AssemblyInfo.cs
+|   |           |   DinnerHost.API.AssemblyInfoInputs.cache
+|   |           |   DinnerHost.API.assets.cache
+|   |           |   DinnerHost.API.csproj.AssemblyReference.cache
+|   |           |   DinnerHost.API.csproj.CopyComplete
+|   |           |   DinnerHost.API.csproj.CoreCompileInputs.cache
+|   |           |   DinnerHost.API.csproj.FileListAbsolute.txt
+|   |           |   DinnerHost.API.dll
+|   |           |   DinnerHost.API.GeneratedMSBuildEditorConfig.editorconfig
+|   |           |   DinnerHost.API.genruntimeconfig.cache
+|   |           |   DinnerHost.API.GlobalUsings.g.cs
+|   |           |   DinnerHost.API.MvcApplicationPartsAssemblyInfo.cache
+|   |           |   DinnerHost.API.MvcApplicationPartsAssemblyInfo.cs
+|   |           |   DinnerHost.API.pdb
+|   |           |   project.razor.json
+|   |           |   staticwebassets.build.json
+|   |           |   
+|   |           +---ref
+|   |           |       DinnerHost.API.dll
+|   |           |       
+|   |           +---refint
+|   |           |       DinnerHost.API.dll
+|   |           |       
+|   |           \---staticwebassets
+|   |                   msbuild.build.DinnerHost.API.props
+|   |                   msbuild.buildMultiTargeting.DinnerHost.API.props
+|   |                   msbuild.buildTransitive.DinnerHost.API.props
+|   |                   
+|   \---Properties
+|           launchSettings.json
+|           
++---DinnerHost.Application
+|   |   DependencyInjection.cs
+|   |   DinnerHost.Application.csproj
+|   |   
+|   +---bin
+|   |   \---Debug
+|   |       \---net7.0
+|   |               DinnerHost.Application.deps.json
+|   |               DinnerHost.Application.dll
+|   |               DinnerHost.Application.pdb
+|   |               DinnerHost.Domain.dll
+|   |               DinnerHost.Domain.pdb
+|   |               
+|   +---Common
+|   |   \---Interfaces
+|   |       \---Authentication
+|   |               IJwtTokenGenerator.cs
+|   |               
+|   +---obj
+|   |   |   DinnerHost.Application.csproj.nuget.dgspec.json
+|   |   |   DinnerHost.Application.csproj.nuget.g.props
+|   |   |   DinnerHost.Application.csproj.nuget.g.targets
+|   |   |   project.assets.json
+|   |   |   project.nuget.cache
+|   |   |   
+|   |   \---Debug
+|   |       \---net7.0
+|   |           |   .NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+|   |           |   DinnerHost.Application.AssemblyInfo.cs
+|   |           |   DinnerHost.Application.AssemblyInfoInputs.cache
+|   |           |   DinnerHost.Application.assets.cache
+|   |           |   DinnerHost.Application.csproj.AssemblyReference.cache
+|   |           |   DinnerHost.Application.csproj.CopyComplete
+|   |           |   DinnerHost.Application.csproj.CoreCompileInputs.cache
+|   |           |   DinnerHost.Application.csproj.FileListAbsolute.txt
+|   |           |   DinnerHost.Application.dll
+|   |           |   DinnerHost.Application.GeneratedMSBuildEditorConfig.editorconfig
+|   |           |   DinnerHost.Application.GlobalUsings.g.cs
+|   |           |   DinnerHost.Application.pdb
+|   |           |   
+|   |           +---ref
+|   |           |       DinnerHost.Application.dll
+|   |           |       
+|   |           \---refint
+|   |                   DinnerHost.Application.dll
+|   |                   
+|   \---Services
+|       \---Authentication
+|               AuthenticationResult.cs
+|               AuthenticationService.cs
+|               IAuthenticationService.cs
+|               
++---DinnerHost.Contracts
+|   |   DinnerHost.Contracts.csproj
+|   |   
+|   +---Authentication
+|   |       AuthenticationResponse.cs
+|   |       LoginRequest.cs
+|   |       RegisterRequest.cs
+|   |       
+|   +---bin
+|   |   \---Debug
+|   |       \---net7.0
+|   |               DinnerHost.Contracts.deps.json
+|   |               DinnerHost.Contracts.dll
+|   |               DinnerHost.Contracts.pdb
+|   |               
+|   \---obj
+|       |   DinnerHost.Contracts.csproj.nuget.dgspec.json
+|       |   DinnerHost.Contracts.csproj.nuget.g.props
+|       |   DinnerHost.Contracts.csproj.nuget.g.targets
+|       |   project.assets.json
+|       |   project.nuget.cache
+|       |   
+|       \---Debug
+|           \---net7.0
+|               |   .NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+|               |   DinnerHost.Contracts.AssemblyInfo.cs
+|               |   DinnerHost.Contracts.AssemblyInfoInputs.cache
+|               |   DinnerHost.Contracts.assets.cache
+|               |   DinnerHost.Contracts.csproj.AssemblyReference.cache
+|               |   DinnerHost.Contracts.csproj.CoreCompileInputs.cache
+|               |   DinnerHost.Contracts.csproj.FileListAbsolute.txt
+|               |   DinnerHost.Contracts.dll
+|               |   DinnerHost.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+|               |   DinnerHost.Contracts.GlobalUsings.g.cs
+|               |   DinnerHost.Contracts.pdb
+|               |   
+|               +---ref
+|               |       DinnerHost.Contracts.dll
+|               |       
+|               \---refint
+|                       DinnerHost.Contracts.dll
+|                       
++---DinnerHost.Domain
+|   |   DinnerHost.Domain.csproj
+|   |   
+|   +---bin
+|   |   \---Debug
+|   |       \---net7.0
+|   |               DinnerHost.Domain.deps.json
+|   |               DinnerHost.Domain.dll
+|   |               DinnerHost.Domain.pdb
+|   |               
+|   \---obj
+|       |   DinnerHost.Domain.csproj.nuget.dgspec.json
+|       |   DinnerHost.Domain.csproj.nuget.g.props
+|       |   DinnerHost.Domain.csproj.nuget.g.targets
+|       |   project.assets.json
+|       |   project.nuget.cache
+|       |   
+|       \---Debug
+|           \---net7.0
+|               |   .NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+|               |   DinnerHost.Domain.AssemblyInfo.cs
+|               |   DinnerHost.Domain.AssemblyInfoInputs.cache
+|               |   DinnerHost.Domain.assets.cache
+|               |   DinnerHost.Domain.csproj.AssemblyReference.cache
+|               |   DinnerHost.Domain.csproj.CoreCompileInputs.cache
+|               |   DinnerHost.Domain.csproj.FileListAbsolute.txt
+|               |   DinnerHost.Domain.dll
+|               |   DinnerHost.Domain.GeneratedMSBuildEditorConfig.editorconfig
+|               |   DinnerHost.Domain.GlobalUsings.g.cs
+|               |   DinnerHost.Domain.pdb
+|               |   
+|               +---ref
+|               |       DinnerHost.Domain.dll
+|               |       
+|               \---refint
+|                       DinnerHost.Domain.dll
+|                       
++---DinnerHost.Infrastructure
+|   |   DependencyInjection.cs
+|   |   DinnerHost.Infrastructure.csproj
+|   |   
+|   +---Authentication
+|   |       JwtTokenGenerator.cs
+|   |       
+|   +---bin
+|   |   \---Debug
+|   |       \---net7.0
+|   |               DinnerHost.Application.dll
+|   |               DinnerHost.Application.pdb
+|   |               DinnerHost.Domain.dll
+|   |               DinnerHost.Domain.pdb
+|   |               DinnerHost.Infrastructure.deps.json
+|   |               DinnerHost.Infrastructure.dll
+|   |               DinnerHost.Infrastructure.pdb
+|   |               
+|   \---obj
+|       |   DinnerHost.Infrastructure.csproj.nuget.dgspec.json
+|       |   DinnerHost.Infrastructure.csproj.nuget.g.props
+|       |   DinnerHost.Infrastructure.csproj.nuget.g.targets
+|       |   project.assets.json
+|       |   project.nuget.cache
+|       |   
+|       \---Debug
+|           \---net7.0
+|               |   .NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+|               |   DinnerHost.Infrastructure.AssemblyInfo.cs
+|               |   DinnerHost.Infrastructure.AssemblyInfoInputs.cache
+|               |   DinnerHost.Infrastructure.assets.cache
+|               |   DinnerHost.Infrastructure.csproj.AssemblyReference.cache
+|               |   DinnerHost.Infrastructure.csproj.CopyComplete
+|               |   DinnerHost.Infrastructure.csproj.CoreCompileInputs.cache
+|               |   DinnerHost.Infrastructure.csproj.FileListAbsolute.txt
+|               |   DinnerHost.Infrastructure.dll
+|               |   DinnerHost.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+|               |   DinnerHost.Infrastructure.GlobalUsings.g.cs
+|               |   DinnerHost.Infrastructure.pdb
+|               |   
+|               +---ref
+|               |       DinnerHost.Infrastructure.dll
+|               |       
+|               \---refint
+|                       DinnerHost.Infrastructure.dll
+|                       
++---Docs
+|       Api.md
+|       Clean-Arch-Final-results.png
+|       Clean-arch-proj-types.png
+|       Clean-arch-visual.png
+|       
+\---Requests
+    \---Authentication
+            Login.http
+            Register.http
+            

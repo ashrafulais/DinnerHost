@@ -5,6 +5,9 @@
 - [Register](#register)
   - [Register Request](#register-request)
   - [Register Response](#register-response)
+- [Login](#login)
+  - [Login Request](#login-request)
+  - [Login Response](#login-response)
 
 ## Auth
 
@@ -29,11 +32,39 @@
 
 ```json
 {
-    "id": "70f6833f-e783-4053-bde5-7793bf4b26be",
-    "firstName": "John",
-    "lastName": "Doe",
+  "id": "498d3f04-3b22-4737-aee1-433454d8c1fb",
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john@email.com",
+  "token": "eyJh....eps"
+}
+```
+
+## Login
+
+`POST {{host}}/auth/login`
+
+### Login Request
+
+```json
+{
     "email": "john@email.com",
-    "token": "fdglkmkmm4...dfduibmmz"
+    "password": "Abc123!"
+}
+```
+
+### Login Response
+
+`200 OK `
+
+```json
+
+{
+  "id": "36cb72ef-e36f-429d-90e3-a42964fe00cc",
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john@email.com",
+  "token": "eyJhbGc...5Wfso"
 }
 ```
 

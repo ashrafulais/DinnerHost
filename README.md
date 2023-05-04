@@ -65,3 +65,10 @@ Presentation ↓ | Infrastructure ↓ -> DB
 - Transient objects are always different; a new instance is provided to every controller and every service.
 - Scoped objects are the same within a request, but different across different requests.
 - Singleton objects are the same for every object and every request. 
+
+
+### 4 - Error Handling
+
+1. Using a custom Middleware - `app.UseMiddleware<ErrorHandlingMiddleware>();`
+2. Using a custom filer - On top of API or Method `[ErrorHandlingFilter]` or in the builder `builder.Services.AddControllers(options => options.Filters.Add<ErrorHandlingFilterAttribute>());`
+   1. Describe the error using RFC spec

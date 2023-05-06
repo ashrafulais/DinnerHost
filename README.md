@@ -25,6 +25,7 @@
 - Remove proj reference from infra like this: `dotnet remove DinnerHost.Infrastructure/ reference DinnerHost.API/DinnerHost.API.csproj` 
 - Build the solution: `dotnet build`
 - Run the project: `dotnet run --project DinnerHost.API`
+- Run & Hot reload: `dotnet watch run --project DinnerHost.API`
 
 - Dependency injection package `dotnet add DinnerHost.Application/ package Microsoft.Extensions.DependencyInjection.Abstractions`
 - `dotnet add DinnerHost.Infrastructure/ package Microsoft.Extensions.DependencyInjection.Abstractions`
@@ -72,3 +73,8 @@ Presentation ↓ | Infrastructure ↓ -> DB
 1. Using a custom Middleware - `app.UseMiddleware<ErrorHandlingMiddleware>();`
 2. Using a custom filer - On top of API or Method `[ErrorHandlingFilter]` or in the builder `builder.Services.AddControllers(options => options.Filters.Add<ErrorHandlingFilterAttribute>());`
    1. Describe the error using RFC spec
+
+
+### 5 - Flow control
+
+

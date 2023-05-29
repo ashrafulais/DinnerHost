@@ -1,4 +1,3 @@
-using DinnerHost.Application.Common.Errors;
 using ErrorOr;
 
 namespace DinnerHost.Application.Services.Authentication;

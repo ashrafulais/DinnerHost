@@ -1,4 +1,3 @@
-using DinnerHost.Application.Common.Errors;
 using DinnerHost.Application.Common.Interfaces.Authentication;
 using DinnerHost.Application.Common.Interfaces.Persistence;
 using DinnerHost.Domain.Common.Errors;
